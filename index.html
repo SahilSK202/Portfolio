@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahil Kavitake Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    
+</head>
+
+<body>
+    <!-- The button for scrolling up to the home. Hidden initially -->
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+    <!-- The navbar-->
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Sahil's Portfolio</a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <!-- <li><a href="#services" class="menu-btn">Services</a></li> -->
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#project" class="menu-btn">Projects</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Sahil Kavitake</div>
+                <div class="text-3">And I'm into <span class="typing"></span></div>
+                <a href="https://www.linkedin.com/in/sahil-kavitake-6226261a3/">Linkedin Profile</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/me.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Sahil and I'm into <span class="typing-2"></span></div>
+                    <p>I'm a graduate in Mathematics currently pursuing M.Sc. IMCA ( Industrial Mathematics with
+                        Computer Application ) at Fergusson College, Pune.
+                        I'm a quick learner and extremely motivated to constantly develop my skills and
+                        grow professionally. <br>
+                        I think no matter how hard the past is, you can always begin again and I believe every day is
+                        a chance to begin again. The only goal is to become better than yesterday...</p>
+                    <a href="https://drive.google.com/file/d/1wcLLvZJaDq-2QVKhJG2t66Jt3jBudPEm/view?usp=sharing">Download
+                        CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section start -->
+    <!-- <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Web Design</div>
+                        <p>I can develope some creative projects mainly based frontened work.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="text">Guiding</div>
+                        <p>I can guide you with my previous experiences which may help you.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text"><a href="https://www.youtube.com/channel/UCDyn-3ebPcJyy7Isg-moMkA">YOUTUBE</a>
+                        </div>
+
+                        <p>You can visit my YouTube channel <a
+                                href="https://www.youtube.com/channel/UCDyn-3ebPcJyy7Isg-moMkA">Talk With Aman</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section> -->
+
+    <!-- project section start -->
+    <section class="services" id="project">
+        <div class="max-width">
+            <h2 class="title">Major Projects</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text"><a href="https://github.com/SahilSK202/Chess-Game-Result-Prediction">Chess
+                                Game Result Prediction</a></div>
+                        <p>An End to End Machine Learning project that can
+                            predict the result of chess game by rating of both
+                            players and the chess opening played.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="text"><a href="https://github.com/SahilSK202/Nifty50-Index-Dashboard">Nifty-50 Index
+                                Dashboard</a></div>
+                        <p>Developed a dashboard with Plotly and Dash python tools that predicts and forecasts Nifty-50
+                            Index price using Time Series Analysis SARIMAX model.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-gamepad"></i>
+                        <div class="text"><a href="https://github.com/SahilSK202/Action-Survival-Game">Action Survival
+                                Game</a></div>
+                        <p>An Action Survival Game made with pure HTML, CSS, JavaScript, Node, and Express.
+                            Making learning fun motivates students and helps them pay attention and stay focused on the
+                            subject..</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <br><br><br>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text"><a href="https://github.com/SahilSK202/Chess-Game-Result-Prediction">Chess Game Result Prediction</a></div>
+                        <p>An End to End Machine Learning project that can
+                            predict the result of chess game by rating of both
+                            players and the chess opening played.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="text"><a href="https://github.com/SahilSK202/Nifty50-Index-Dashboard">Nifty-50 Index Dashboard</a></div>
+                        <p>Developed a dashboard with Plotly and Dash python tools that predicts and forecasts Nifty-50 Index price using Time Series Analysis SARIMAX model.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-gamepad"></i>
+                        <div class="text"><a href="https://github.com/SahilSK202/Action-Survival-Game">Action Survival Game</a></div>
+                        <p>An Action Survival Game made with pure HTML, CSS, JavaScript, Node, and Express.
+                            Making learning fun motivates students and helps them pay attention and stay focused on the subject..</p>
+                    </div>
+                </div>
+                
+            </div> -->
+        </div>
+        </div>
+    </section>
+
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My Skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills & experiences.</div>
+                    <p>I possess strong multi-tasking skills and am proficient in
+                        object-oriented programming ,data pre-processing, EDA, feature
+                        engineering, time series analysis, developing ML models with good
+                        knowledge of data structures and algorithms and dbms. <br> Being a fresher I don't say that I
+                        don't have any
+                        experience at all, In my bachelors I was NCC cadet which taught me Team leadership, Management,
+                        Unity and much more.
+                        <br>I love to play video games since childhood which trained me to become a better problem
+                        solver and inspires
+                        me to be more persistent about my goals.
+                    </p>
+                    <!-- <a href="https://www.linkedin.com/in/sahil-kavitake-6226261a3/">Read more</a> -->
+                </div>
+
+                <div class="column right">
+                    <table class="skills-table">
+
+                        <tr>
+                            <td>Programming Languages-</td>
+                            <td>Python, C++, Java, R</td>
+                        </tr>
+                        <tr>
+                            <td>Web Technologies-</td>
+                            <td>HTML, CSS, JavaScript, Bootstrap, Node, Flask</td>
+                        </tr>
+                        <tr>
+                            <td>DBMS-</td>
+                            <td>SQL, PostgreSQL, MongoDB</td>
+                        </tr> 
+                        <tr>
+                            <td>Tools-</td>
+                            <td>Git, Anaconda, VS Code , Eclipse</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <hr style="border: 2px solid black;">
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>I would love to connect and have a chat with people from various domains, feel free to reach out. 😊💜
+                    </p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Sahil Shivaji Kavitake</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Ratnagiri, Maharashtra, India</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">sahil.kavitake202@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Whatsapp me</div>
+                    <a href="https://wa.me/+918459225341">Send message</a>
+                    <br>
+                    <div class="text">Connect me on Linkedin</div>
+                    <a href="https://www.linkedin.com/in/sahil-kavitake-6226261a3/">Connect
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer section start -->
+    <footer>
+        <span>Created By <a href="https://www.linkedin.com/in/sahil-kavitake-6226261a3/">Sahil Kavitake</a> with 💖
+            <!-- <span class="far fa-copyright"></span>| 2021 All rights reserved.</span> -->
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
