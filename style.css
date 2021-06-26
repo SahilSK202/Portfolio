@@ -164,13 +164,13 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("Images/ml2.jpg") no-repeat center;
+    background: url("/Images/ml.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     width:auto;
     background-size: cover;
     background-attachment: fixed;
-background-position:center;
+    background-position:center;
     font-family: 'Ubuntu', sans-serif;
 }
 .home .max-width{
