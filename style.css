@@ -385,7 +385,7 @@ section .title::after{
     display: flex;
 }
 .contact .right{
-    padding-left: 100px;
+    padding-left: 2em;
 }
 
 .contact .right a{
