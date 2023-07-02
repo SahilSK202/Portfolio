@@ -27,18 +27,6 @@
 html{
     scroll-behavior: smooth;
 }
-body {
-    height: 100%;
-    margin: 0;
-  }
-  
-  .container {
-    height: 100%;
-    
-    /* Additional styling for the container if needed */
-  }
-  
-  
 
 .card p{
     color: #fff;
@@ -215,7 +203,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url(Images/bg5.jpg) no-repeat center;
+    /* background: url(Images/bg5.jpg) no-repeat center; */
     height: 100vh;
     color: #fff;
     width:auto;
