@@ -12,7 +12,6 @@
 
 :root{
     --primaryColor: rgb(0, 106, 213);
-    /* --secondaryColor: orangered; */
     --secondaryColor: #FFB533;
 }
 
@@ -21,7 +20,6 @@
 }
 
 .secondaryColor{
-    
     color: var(--secondaryColor);
 }
 
@@ -217,7 +215,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url(Images/bg4.jpg) no-repeat center;
+    background: url(Images/bg5.jpg) no-repeat center;
     height: 100vh;
     color: #fff;
     width:auto;

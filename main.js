@@ -57,26 +57,26 @@ $(document).ready(function () {
   console.log(experience);
 
   // typing text animation script
-  var typed = new Typed(".typing", {
-    strings: ["Data Analysis | Web Development | Machine Learning"],
-    typeSpeed: 50,
-    backSpeed: 1,
-    loop: true,
-  });
+  // var typed = new Typed(".typing", {
+  //   strings: ["Data Analysis | Web Development | Machine Learning"],
+  //   typeSpeed: 50,
+  //   backSpeed: 1,
+  //   loop: true,
+  // });
 
-  var typed = new Typed(".typing-2", {
-    strings: [
-      "Data Science",
-      "Machine Learning",
-      "Data Analysis",
-      "Deep Learning",
-      "A.I.",
-      "Reinforcement Learning",
-    ],
-    typeSpeed: 100,
-    backSpeed: 100,
-    loop: true,
-  });
+  // var typed = new Typed(".typing-2", {
+  //   strings: [
+  //     "Data Science",
+  //     "Machine Learning",
+  //     "Data Analysis",
+  //     "Deep Learning",
+  //     "A.I.",
+  //     "Reinforcement Learning",
+  //   ],
+  //   typeSpeed: 100,
+  //   backSpeed: 100,
+  //   loop: true,
+  // });
 
   // // owl carousel script
   // $('.carousel').owlCarousel({
