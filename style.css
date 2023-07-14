@@ -203,7 +203,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    /* background: url(Images/bg5.jpg) no-repeat center; */
+    background: url(Images/bg5.jpg) no-repeat center;
     height: 100vh;
     color: #fff;
     width:auto;
@@ -303,13 +303,22 @@ section .title::after{
 
 /* about me offer table */
 .about .about-content .right table{
-    /* background: #222; */
-    background:  var(--primaryColor);
+    background: #222;
+    
     color: white;
     /* border-collapse: collapse; */
     table-layout: auto;
     margin-top: 6%;
     width: 100%;
+}
+.about .about-content .right table:hover{
+    background:  var(--primaryColor);
+    box-shadow: 0 12px 18px rgba(0,0,0,0.11),
+      0 12px 30px var(--primaryColor);
+      transform: scale(1.05);
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 .about .about-content  .right table td{
     font-size: 18px;
@@ -343,20 +352,40 @@ section .title::after{
     width: calc(30% - 20px);
     background: #222;
     text-align: center;
-    border-radius: 6px;
     padding: 20px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+    border-top-right-radius: 20px;
+    box-shadow: 0 24px 36px rgba(22, 2, 83, 0.09);
+    
 }
 .services .serv-content .card:hover{
     background: var(--primaryColor);
+    box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+      0 24px 46px var(--primaryColor);
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover .box{
-    transform: scale(1.05);
+
+.services .serv-content .card .box img{
+    opacity: 0.6;
+    
 }
+
+
+
+.services .serv-content .card:hover{
+    transform: scale(1.05);
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    
+}
+
+.services .serv-content .card:hover .box img{
+    opacity: 1;
+    
+}
+
 .services .serv-content .card a{
     color: var(--primaryColor);
     text-decoration: none;
@@ -368,6 +397,10 @@ section .title::after{
 }
 .services .serv-content .card:hover i{
     color: #fff;
+}
+
+.xsm{
+    width: 10px;
 }
 
 .services .serv-content .card:hover a{
@@ -405,6 +438,15 @@ section .title::after{
 .skills .skills-content .left a:hover{
     color: var(--primaryColor);
     background: none;
+}
+
+.box {
+    position: relative;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
 }
 
 /* skills table */
@@ -611,18 +653,20 @@ footer span,a{
     }
 
     .services {
-        margin-top: 20vh;
+        margin-top: 30vh;
     }
     .services .serv-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
        
     }
+    .about .about-content .column,
     .skills .skills-content .column,
     .contact .contact-content .column{
         width: 100%;
         margin-bottom: 35px;
     }
+    .about .about-content .right,
     .skills .skills-content .right{
         flex: 100%;
     }
